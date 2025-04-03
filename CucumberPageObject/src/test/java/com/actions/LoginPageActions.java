@@ -29,7 +29,7 @@ public void clickLogin() {
 	loginPageLocators.login.click();
 }
 public void login() {
-	File file=new File("C://Users//kirub//eclipse-testNG//CucumberPageObject//src//test//resources//testdata.properties");
+	File file=new File("C:\\Users\\kirub\\git\\cucumberReportPractice\\CucumberPageObject\\src\\test\\resources\\testdata.properties");
 	FileInputStream fileInput=null;
 	try {
 		fileInput=new FileInputStream(file);
